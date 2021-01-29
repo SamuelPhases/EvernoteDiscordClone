@@ -1,0 +1,56 @@
+.sidebaritem {
+  /* margin: 0.5em 0em; */
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0em 2em;
+  /* background-color: #827; */
+  margin: auto;
+  cursor: pointer;
+}
+
+.sidebaritem:hover,
+.sidebaritem--showArrow:hover {
+  background-color: #404040;
+}
+
+.sidebaritem > .MuiSvgIcon-root {
+  color: #a6a6a6;
+  font-size: 1rem;
+}
+
+.sidebaritem--showArrow {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  width: 100%;
+  padding: 0em 1em;
+  /* background-color: #827; */
+  margin: auto;
+}
+
+.sidebaritem--showArrow > div > .MuiSvgIcon-root {
+  color: #a6a6a6;
+  font-size: 1.1rem;
+  margin-top: 0.2em;
+}
+
+.sidebaritem--showArrow > .MuiSvgIcon-root {
+  color: #a6a6a6;
+  font-size: 1rem;
+}
+.sidebaritem > h3,
+.sidebaritem--showArrow > h3 {
+  padding: 0.5em;
+  /* padding-left: 1.5em; */
+  font-weight: 450;
+  color: #ccc;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.sidebaritem > h3:hover {
+}

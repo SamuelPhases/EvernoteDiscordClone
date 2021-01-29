@@ -1,0 +1,64 @@
+.editor {
+  background-color: #fefeff;
+  flex: auto;
+  position: relative;
+  height: 100%;
+  /* background-color: #920029; */
+}
+
+.editor__header {
+  background-color: #0081c2;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.4em 0em;
+}
+
+.editor__auto {
+  width: 79%;
+  /* background-color: #918268; */
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.5em;
+}
+
+.editor__auto > .MuiSvgIcon-root {
+  /* font-size: 1.3rem; */
+  color: #fff;
+  transform: scale(0.8);
+  /* font-weight: 700; */
+}
+
+.editor__headercontent > .MuiSvgIcon-root {
+  color: #fff;
+}
+.editor__headercontent {
+  display: flex;
+  align-items: center;
+}
+
+.editor__headercontent > p {
+  color: #fff;
+  padding-left: 0.8em;
+  font-size: 0.9rem;
+}
+.editor__headercontent > .title {
+  font-weight: 500;
+}
+
+.editor__headercontent > button {
+  padding: 0.7em 1em;
+  margin-left: 1em;
+  border-radius: 3px;
+  border: none;
+  color: #0081c2;
+  font-weight: 550;
+  background-color: #fff;
+}
+
+.editor__auto > h1 {
+  font-size: 1rem;
+  color: #fff;
+}

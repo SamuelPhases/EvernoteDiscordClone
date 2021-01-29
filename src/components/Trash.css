@@ -1,0 +1,83 @@
+.trash {
+  display: flex;
+  width: 100%;
+  /* align-items: center; */
+  height: 100%;
+  /* background-color: #293; */
+}
+
+.trash__sectiona {
+  background-color: #f8f8f8;
+  flex: 0.33;
+  border-right: 1px solid #e6e6e6;
+}
+
+.trash__sectiona > h2 {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #333;
+  padding: 1em;
+  padding-left: 1em;
+}
+
+.trash__info {
+  /* margin-top: 1em; */
+  padding: 1em;
+  padding-left: 1.5em;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 9em;
+  font-size: 0.8rem;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trash__info > div > div {
+  transform: rotate(90deg);
+}
+.trash__info > div > div:nth-child(2) {
+  margin-left: -0.5em;
+}
+.trash__info > div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  /* background-color: #726290; */
+}
+
+.trash__info > div > div > .MuiSvgIcon-root {
+  font-size: 1rem;
+}
+
+.trash__content {
+  /* background-color: #829; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 4em; */
+  width: 90%;
+  text-align: center;
+}
+
+.trash__content > div > .MuiSvgIcon-root {
+  font-size: 10rem;
+  color: #d9d9d9;
+}
+.trash__content > div > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.trash__content > div > p {
+  font-size: rem;
+  line-height: 2;
+  color: #737373;
+}

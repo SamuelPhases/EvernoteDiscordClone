@@ -1,0 +1,29 @@
+.daily--reflection {
+}
+
+.daily--reflection--header {
+  /* background-color: #029303; */
+  /* padding-bottom: 1em; */
+}
+
+.daily--reflection--header > h2 {
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.reflection--question {
+  margin: 1em 0em;
+}
+
+.reflection--question > h4 {
+  /* background-color: #029303; */
+  font-size: 1rem;
+  color: #333;
+  font-weight: 700;
+}
+
+ul {
+  padding: 0.5em 2em;
+  /* background-color: #928499; */
+}

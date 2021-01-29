@@ -1,0 +1,217 @@
+.notebooks {
+  width: 95%;
+  /* background-color: #9208; */
+  margin: auto;
+}
+
+.notebooks--header {
+  padding: 1.5em 0em;
+  /* background-color: #928001; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notebooks--header > h2 {
+  font-weight: 400;
+  color: #333;
+  font-size: 1.2rem;
+}
+.notebook--search {
+  /* background-color: #746490; */
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 220px;
+  margin-top: -2em;
+}
+.notebook--search > input:focus {
+  border: 1px solid #0081c2;
+}
+.notebook--search > input:active {
+  border: 1px solid #0081c2;
+  /* border: 1px solid #920; */
+}
+.notebook--search > input {
+  padding: 1.2em 1em;
+  width: 100%;
+  position: absolute;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  height: 100%;
+  top: 0;
+  left: 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.notebook--icon {
+  background-color: #827290;
+  position: absolute;
+  right: 3%;
+  top: 30%;
+  margin-top: 0.3em;
+  width: 10%;
+  height: 100%;
+}
+
+.notebook--icon > .MuiSvgIcon-root {
+  color: #ccc;
+  font-size: 1.4rem;
+}
+
+.notebook--tabletitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: #876; */
+  padding: 0.5em 0em;
+  border-bottom: 2px solid #5b6b70;
+}
+
+.notebook--tableleft > h4 {
+}
+.notebook--tableright {
+  display: flex;
+  align-items: center;
+}
+
+.notebook-arrange {
+  display: flex;
+  align-items: center;
+  /* background-color: #9728; */
+}
+
+.notebook--rotate {
+  transform: rotate(90deg);
+  /* background-color: #829277; */
+  margin-right: -0.5em;
+}
+
+.notebook--tableright > .MuiSvgIcon-root {
+  color: #00a827;
+}
+.notebook--tableright > h4 {
+  margin-right: 1em;
+  color: #00a827;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.notebook--tableleft > h4 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.notebook--header {
+  display: flex;
+  align-items: center;
+  padding: 1em 0em;
+  padding-left: 0.5em;
+}
+
+.notebook--header > .MuiSvgIcon-root {
+  font-size: 0.8rem;
+}
+.notebook--header > h5 {
+  font-weight: 400;
+}
+table th {
+  text-transform: uppercase;
+  /* background-color: ; */
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.notebook--toggle {
+  /* flex: 0.32; */
+  display: flex;
+  align-items: center;
+}
+
+.notebook--toggle > div {
+  margin-top: 0.3em;
+}
+
+.notebook--toggle p {
+  font-size: 0.8rem;
+}
+
+.notebook--bodytoggle p {
+  font-size: 0.8rem;
+}
+
+.notebook--togglecontentTitle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  /* background-color: #827901; */
+  margin: auto;
+  padding: 0.5em 1em;
+  justify-content: space-between;
+}
+
+.notebook--togglecontentTitle > div {
+  display: flex;
+  align-items: center;
+  flex: 0.35;
+  margin-left: 1em;
+}
+.notebook--togglecontentTitle > div > .MuiSvgIcon-root {
+  color: #313131;
+  font-size: 0.9rem;
+}
+.notebook--togglecontentTitle > div > p {
+  font-size: 0.8rem;
+  margin-left: 0.5em;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-spacing: 0;
+}
+
+tr > td {
+  font-size: 0.8rem;
+  color: #717171;
+  padding: 0.8em 0em;
+}
+
+tr {
+  padding: 1em;
+  /* background-color: #829082; */
+}
+
+tr:nth-of-type(odd) {
+  background-color: #f8f8f8;
+}
+tr:nth-child(1) {
+  /* background-color: #289178; */
+  border-bottom: 3px solid #ededed;
+}
+
+tr > td:nth-child(1) {
+  color: #313131;
+  /* color: #fffd; */
+  text-transform: capitalize;
+  padding-left: 2em;
+}
+tr > th {
+  color: #b3b3b3;
+  font-size: 0.7rem;
+}
+
+tr {
+  transition: all 0.2s linear;
+}
+
+tr:hover {
+  background-color: #31313110;
+}
+
+tr > th,
+tr > td {
+  cursor: pointer;
+}
